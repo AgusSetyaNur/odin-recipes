@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+/* css for home */
+.title {
+  text-align: center;
+  padding: 20px;
+  background-color: aqua;
+  border: 10px black dotted;
+  margin: 30px;
+}
+
+.menu {
+  font-size: 18px;
+  text-align: center;
+  list-style: none;
+  background-color: yellowgreen;
+  margin: 30px;
+  padding: 10px;
+  border: 5px black solid;
+}
+
+.menu li {
+  background-color: red;
+  margin: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+/* css for recipes */
+.content {
+  margin: 0 60px;
+}
+
+.recipes-header {
+  background-color: cyan;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.recipes-img {
+  margin: 20px auto;
+  background-color: bisque;
+  display: block;
+}
+
+a {
+  text-align: center;
+  display: block;
+  margin: 50px 0;
+}
+
+h1.recipes-header {
+  margin: 20px;
+}
